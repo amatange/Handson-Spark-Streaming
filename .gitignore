@@ -1,0 +1,13 @@
+# Ignore hidden Spark checkpoint/metadata directories
+**/.checkpoint/
+**/_spark_metadata/
+
+# Ignore Spark staging/temporary directories
+**/_temporary/
+
+# Ignore CRC checksum files that Spark creates alongside CSVs
+**/*.crc
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
